@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh table pada HTML</title>
+</head>
+
+<body>
+
+    <h3>Contoh Tanpa Menggunakan Atribut</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>JK</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Apriyanto Alhamad</td>
+                <td>Pria</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Noah Azka Alhamad</td>
+                <td>Pria</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Muhammad Arkana Alhamad</td>
+                <td>Pria</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Contoh Menggunakan Atribut</h3>
+    <table border="1" cellpadding="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>JK</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Apriyanto Alhamad</td>
+                <td>Pria</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Noah Azka Alhamad</td>
+                <td>Pria</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Muhammad Arkana Alhamad</td>
+                <td>Pria</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Contoh Menggunakan Atribut span dan foot</h3>
+    <table width="90%" border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th rowspan="2">Hari</th>
+                <th colspan="2">Jam</th>
+            </tr>
+            <tr>
+                <th>Jam Ke 1</th>
+                <th>Jam Ke 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Senin</td>
+                <td align="center">Struktur Data</td>
+                <td align="center">Logika Algoritma</td>
+            </tr>
+            <tr>
+                <td>Selasa</td>
+                <td align="center">Pemrograman Web</td>
+                <td align="center">Framework Programming</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Total</th>
+                <th>2</th>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
